@@ -1,6 +1,6 @@
 package com.tsswebapps.jftsistemasmembros.entities;
 
-public class Logradouro {
+public class Endereco {
 	private String id;
 	private String cep;
 	private String logradouro;
