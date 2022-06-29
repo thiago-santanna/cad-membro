@@ -1,4 +1,4 @@
-package com.tsswebapps.jftsistemasmembros.dto;
+package com.tsswebapps.jftsistemasmembros.requestDto;
 
 public class UsuarioDto {
 	private String id;
@@ -14,5 +14,27 @@ public class UsuarioDto {
 		this.cnpj = cnpj;
 		this.fone = fone;
 	}
+
+	public String getId() {
+		return id;
+	}
+
+	public String getRazaoSocial() {
+		return razaoSocial;
+	}
+
+	public String getNomeFantasia() {
+		return nomeFantasia;
+	}
+
+	public String getCnpj() {
+		return cnpj;
+	}
+
+	public String getFone() {
+		return fone;
+	}
+	
+	
 
 }
