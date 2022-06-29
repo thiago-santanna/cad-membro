@@ -1,12 +1,16 @@
 package com.tsswebapps.jftsistemasmembros.entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Usuario {
 	private String id;
 	private String nome;
 	private String email;
 	private String senha;
 	private Empresa empresa;
-
+	private List<Endereco> enderecos = new ArrayList<>();
+	
 	public String getId() {
 		return id;
 	}
